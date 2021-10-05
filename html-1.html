@@ -12,7 +12,34 @@
 		header { 
 			font-size: 36px;
 			color: #55ff55; }
-	</style>
+		</style>
+		
+		<style>
+			a:link {
+			  color: green;
+			  background-color: transparent;
+			  text-decoration: none;
+			}
+
+			a:visited {
+			  color: pink;
+			  background-color: transparent;
+			  text-decoration: none;
+			}
+
+			a:hover {
+			  color: red;
+			  background-color: transparent;
+			  text-decoration: underline;
+			}
+
+			a:active {
+			  color: yellow;
+			  background-color: transparent;
+			  text-decoration: underline;
+			}
+		</style>
+
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
@@ -22,25 +49,27 @@
 		<ul>
 			<li><a href="#aboutme">About Me </a></li>
 			<li><a href="#course">Course</li>
-			<li><a href="#youtube">Picture</li>
+			<li><a href="#youtube">Recommend Video</li>
 	    </ul>
 	</nav>
 
 	<main class="container-fluid bg-primary text-white text-center">
 
 		<nav>
-			<h1><a href="https://wijaya181028.wixsite.com/wijaya">Qinghao </a> </h1>
+			<h1><a href="https://wijaya181028.wixsite.com/wijaya">清昊 Qinghao </a> </h1>
 			<h2><a href="https://www.pu.edu.tw/">靜宜大學 </a></h2>
-			<h2><a href="https://csim.pu.edu.tw/">管理學系 </a> </h2>
+			<h2><a href="https://csim.pu.edu.tw/">管理學系3A </a> </h2>
 		</nav>
 
-		<img src="family.jpg" alt="照片"> <br>
+		<img src="me.jpg" alt="照片" width="800" height="600" class="img-fluid rounded-circle"> 
+
+		<br><br><br>
  
         <div class="row">
 			<session id="aboutme" class="col-lg-4"
 > 
 				<header> About Me </header>
-				<h3> 課系：資管系3A </h3>
+				<h3> 學號：410930201 </h3>
 				<h3> mobile phone: <a href="tel:0901201508">0901-201-508 </a></h3>
 				<h3> E-Mail: <a href="mailto:s1093020@gm.pu.edu.tw">s1093020@gm.pu.edu.tw </a> </h3>
 
@@ -60,10 +89,16 @@
 			<aside id="youtube" class="col-lg-4"
 	>
 				<header> Recommend Video </header>
-				<iframe src="https://www.youtube.com/embed/AhAJ6J01R7w" allowfullscreen></iframe>
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe src="https://www.youtube.com/embed/AhAJ6J01R7w" allowfullscreen 
+					class="embed-responsive-item">></iframe>
+				</div>
 
 			</aside>
 		</div>
+		
+		<br><br><br><br><br><br><br><br><br>
+
 		<footer>
 			Copyright ©qinghao. All Rights Reserved.
 		</footer>
