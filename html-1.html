@@ -13,6 +13,8 @@
 			font-size: 36px;
 			color: #55ff55; }
 	</style>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
 </head>
 <body>
@@ -24,7 +26,8 @@
 	    </ul>
 	</nav>
 
-	<main>
+	<main class="container-fluid bg-primary text-white text-center">
+
 		<nav>
 			<h1><a href="https://wijaya181028.wixsite.com/wijaya">Qinghao </a> </h1>
 			<h2><a href="https://www.pu.edu.tw/">靜宜大學 </a></h2>
@@ -33,29 +36,34 @@
 
 		<img src="family.jpg" alt="照片"> <br>
  
+        <div class="row">
+			<session id="aboutme" class="col-lg-4"
+> 
+				<header> About Me </header>
+				<h3> 課系：資管系3A </h3>
+				<h3> mobile phone: <a href="tel:0901201508">0901-201-508 </a></h3>
+				<h3> E-Mail: <a href="mailto:s1093020@gm.pu.edu.tw">s1093020@gm.pu.edu.tw </a> </h3>
 
-		<session id="aboutme"> 
-			<header> About Me </header>
-			<h3> 課系：資管系3A </h3>
-			<h3> mobile phone: <a href="tel:0901201508">0901-201-508 </a></h3>
-			<h3> E-Mail: <a href="mailto:s1093020@gm.pu.edu.tw">s1093020@gm.pu.edu.tw </a> </h3>
-
-		</session>
-
+			</session>
+		
     
-		<article id="course">
-			<header> Course </header>
-			MIS
-			Management
-			System Analyst
-		</article>
+			<article id="course" class="col-lg-4"
+	>
+				<header> Course </header>
+				<h3>MIS</h3>
+				<h3>Management</h3>
+				<h3>System Analyst</h3>
+				<h3>ERP</h3>
+				
+			</article>
 
-		<aside id="youtube">
-			<header> My Youtube Channel </header>
-			<iframe src="https://www.youtube.com/embed/AhAJ6J01R7w" allowfullscreen></iframe>
+			<aside id="youtube" class="col-lg-4"
+	>
+				<header> Recommend Video </header>
+				<iframe src="https://www.youtube.com/embed/AhAJ6J01R7w" allowfullscreen></iframe>
 
-		</aside>
-
+			</aside>
+		</div>
 		<footer>
 			Copyright ©qinghao. All Rights Reserved.
 		</footer>
