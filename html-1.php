@@ -117,9 +117,12 @@
 		</div>
 		
 		<br><br><br><br><br><br><br><br><br>
+		<?php
+			echo "The time is " . date("h:i:sa");
+		?>
 
 		<footer>
-			Copyright ©qinghao. All Rights Reserved.
+			Copyright © <?php echo date("Y-m-d");?> 清昊. All Rights Reserved.
 		</footer>
 	</main>
 
